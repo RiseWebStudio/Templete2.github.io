@@ -1,0 +1,106 @@
+.header {
+	background: url('../img/bg.jpg'); 
+	height: 100%;
+	.header_nav {
+		position: fixed;
+		display: flex;
+		justify-content: space-between;
+		background-color: white;
+		height: 100px;
+		border-style: solid;
+  		border-width: 1px;
+  		border-color: rgb( 228, 230, 234 );
+  		background-color: rgb( 255, 255, 255 );
+  		z-index: 164;
+
+  		width: 2004px;
+  		height: 104px;
+  		.logo {
+			padding: 35px 0 38px 418px;
+		}
+		.nav {
+			li {
+				display: inline-block;
+				padding: 43px 0 42px 0;				 
+			}
+			a {
+				font-size: 20px;
+				color: #5d6981;
+				padding-left: 52px;
+			}
+		}
+		.button {
+			padding: 28px 380px 26px 0;
+			.facebook {
+				padding-right: 15px;
+			}
+		}		
+	}
+	.header-title {
+		
+		.creativity {
+			font-size: 72px;
+  			color: rgb( 1, 73, 161 );
+  			font-weight: bold;
+  			line-height: 0.667;
+  			text-align: center;
+  			padding-top: 240px;
+  			
+		}
+		.second-title {
+			font-size: 36px;
+			color: #5d6981;
+			text-align: center;
+			margin-top: 23px;
+
+		}
+		.button_Ask {
+			text-align: center;
+			padding-top: 110px;
+
+
+			.Ask {
+				color: white;
+				font-size: 18px;
+				font-weight: bold;
+  				border: 2px solid #ff2d55;
+				border-radius: 50px;
+				background-color: #ff2d55;
+				padding: 22px 70px;
+				line-height: 2.667;
+
+  			}
+		}
+	}
+	.video {
+		.mac {
+			background-repeat: no-repeat;
+			padding: 115px 345px 0 250px;
+		}
+		.play {
+			bottom:425px;
+			left: 835px;
+			position: relative;
+
+		}
+		.symu {
+			text-align: center;
+			bottom: 295px;
+			position: relative;
+			a {
+				color: white;
+				font-family: "Montserrat";
+				font-size: 24px;
+				background-color: #ff2d55;
+				border: 2px solid #ff2d55;
+				padding: 26px 35px;
+				border-radius: 10px;
+				z-index: -1;
+			}
+		}
+	}	
+	
+}
+
+
+
